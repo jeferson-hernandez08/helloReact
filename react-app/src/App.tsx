@@ -22,5 +22,5 @@ export default App;
 */
 
 /*
-  Min: 25:26
+  Min: 25:26 ---
 */
