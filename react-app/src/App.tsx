@@ -1,6 +1,10 @@
 function App() {
   const nombre = "Jeferson Hernandez"
-  return <p>Hola {nombre}</p>;
+  if (nombre) {
+    return <p>Hola {nombre}</p>
+
+  }
+  return <p>Hola Mundo</p>;
 
 }
 
@@ -22,5 +26,5 @@ export default App;
 */
 
 /*
-  Min: 25:26 --- -- Study --
+  Min: 25:26 --- -- Study -- 
 */
