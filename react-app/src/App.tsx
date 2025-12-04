@@ -1,11 +1,7 @@
+import Titulo from "./Titulo";
+
 function App() {
-  const nombre = "Jeferson Hernandez"
-  if (nombre) {
-    return <p>Hola {nombre}</p>
-
-  }
-  return <p>Hola Mundo</p>;
-
+  return <Titulo />
 }
 
 export default App;
@@ -26,5 +22,9 @@ export default App;
 */
 
 /*
-  Min: 25:26 --- -- Study -- 
+  Importamos nuestro componente de titulo 
+*/
+
+/*
+  Min: 33:15 --- -- Study -- 
 */
