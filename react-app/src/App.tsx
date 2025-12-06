@@ -22,7 +22,7 @@ export default App;
 */
 
 /*
-  Importamos nuestro componente de titulo 
+  Importamos nuestro componente de titulo -- 
 */
 
 /*
