@@ -12,6 +12,7 @@ function Card(props: Props) {    // Interface Props para definir tipo de variabl
             }}
         >
             <div className="card-body">{body}</div>
+            {/* <div className="card-body"><CardBody/></div> */}  
         </div>
     );
 }
