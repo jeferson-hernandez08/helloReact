@@ -1,9 +1,12 @@
 import Card, { CardBody } from './components/Card';
+import List from './components/List';
+
 
 function App() {
   return (
     <Card>
       <CardBody title='Hola Mundo Jeferson' text='Esto es el texto' />
+      <List />
     </Card>
   );
 }
