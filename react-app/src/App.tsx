@@ -1,7 +1,11 @@
-import { CardBody } from './components/Card';
+import Card, { CardBody } from './components/Card';
 
 function App() {
-  return <CardBody title={"Hola Mundo JefersonDev"} text={"Este es texto de nuesto componente"} />
+  return (
+    <Card>
+      <CardBody title='Hola Mundo Jeferson' text='Esto es el texto' />
+    </Card>
+  );
 }
 
 export default App;

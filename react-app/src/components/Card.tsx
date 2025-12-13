@@ -1,9 +1,11 @@
+import { ReactNode } from "react";
+
 interface Props {
-    body: string
+    children: ReactNode          // Children: Es la otra forma de recibir los props.
 }
 
 function Card(props: Props) {    // Interface Props para definir tipo de variable
-    const { body } = props;      // Objeto para recibir props
+    const { children } = props;      // Objeto para recibir props
     return (
         <div 
             className="card" 
@@ -11,7 +13,7 @@ function Card(props: Props) {    // Interface Props para definir tipo de variabl
                 width: "350px", 
             }}
         >
-            <div className="card-body">{body}</div>
+            <div className="card-body">{children}</div>        
             {/* <div className="card-body"><CardBody/></div> */}  
         </div>
     );
