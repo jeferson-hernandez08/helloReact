@@ -3,10 +3,11 @@ import List from './components/List';
 
 
 function App() {
+  const list = ["Goku", "Tanjiro", "Eren"];
   return (
     <Card>
       <CardBody title='Hola Mundo Jeferson' text='Esto es el texto' />
-      <List />
+      <List data={list} />
     </Card>
   );
 }

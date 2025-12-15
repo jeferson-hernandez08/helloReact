@@ -1,11 +1,15 @@
-import React from 'react'
+type Props = {
+  data: string[];
+}
 
-type Props = {}
-
-function List({}: Props) {
+function List({ data }: Props) {
   return (
-    <div>List</div>
-  )
+    <ul className="list-group">
+       {data.map((elemento) => (
+        <li key={elemento} className="list-group-item">{elemento}</li>
+       ))}
+    </ul>
+  );
 }
 
 export default List
