@@ -34,5 +34,5 @@ export default App;
 */
 
 /*
-  Min: 33:15 --- -- Study -- -- --
+  Min: 33:15 --- -- Study -- -- -- ..
 */
